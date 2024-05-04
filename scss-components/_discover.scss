@@ -1,0 +1,58 @@
+
+
+.discover{
+    height: 80svh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+
+    .discover__container{
+        height: 80vh;
+        width: 43vw;
+        margin-left: 7vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .discover__title{
+            font-size: clamp(42px, 6vw, 60px);
+            color: #603809;
+            margin-bottom: 0;
+        }
+
+        .discover__paragraph{
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(18px, 2vw, 22px);
+            font-weight: 400;
+            color: #707070;
+            line-height: 40px;
+        }
+
+        .discover__button{
+            background-color: #F9C06A;
+            height: 4.5vh;
+            width: 8vw;
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(12px, 2vw, 14px);
+            font-weight: bold;
+            border-radius: 50px;
+            border: none;
+        }
+
+        .discover__image{}
+
+            .discover__image-cup{
+                margin-top: 10vh;
+                margin-left: 5vw;
+            }
+
+    .discover__backImage{
+        position: absolute;
+        top: 160vh;
+    }
+}

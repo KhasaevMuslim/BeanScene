@@ -1,0 +1,94 @@
+
+
+.feedBack{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 120vh;
+
+    .feedBack__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedBack__title{
+        font-size: clamp(42px, 6vw, 60px);
+        color: #603809;
+        margin-bottom: 0;
+        margin-top: 10vh;
+    }
+
+    .feedBack__paragraph{
+        font-family: 'Playfair Display', serif;
+        font-size: clamp(18px, 2vw, 22px);
+        font-weight: 400;
+        color: #707070;
+        margin-bottom: 0;
+        
+    }
+
+    .feedBack__quote{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba($color: #FFF9F1, $alpha: 1.0);
+        height: 70vh;
+        width: 70vw;
+        margin-top: 10vh;
+        border: 1px solid #F9C06A;
+        position: relative;
+    }
+        
+        .feedBack__quote-paragraph{
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(16px, 2vw, 20px);
+            font-weight: 400;
+            color: #707070;
+            margin-bottom: 0;
+            line-height: 40px;
+            text-align: center;
+            margin: 15vh;
+            margin-top: 20vh;
+            margin-bottom: 5vh;
+        }
+
+        .feedBack__quote-paragraph::before {
+            content: "“";
+            color: #603809;
+            position: absolute;
+            font-size: clamp(120px, 18vw, 240px);
+            left: 6vh;
+            top: 18vh;  
+            
+        } 
+
+        .feedBack__quote-author{ 
+            font-size: clamp(27px, 2vw, 33px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #603809;
+            font-weight: bold;
+        }
+
+            .feedBack__quote-span{
+                font-family: 'Playfair Display', serif;
+                font-size: clamp(18px, 2vw, 22px);
+                font-weight: 400;
+                color: #707070;
+                margin-bottom: 0;}
+
+    .feedBack__image-left{
+        position: absolute;
+        top: 25%;
+        right: 0;
+        transform: scale(-1, 1);
+    }
+
+    .feedBack__image-right{
+        position: absolute;
+        top: 65%;
+        left: 0;
+    }
+}

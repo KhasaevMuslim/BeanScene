@@ -1,0 +1,19 @@
+html,
+body{
+    font-size: 62,5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+
+@import 'header';
+@import 'main';
+@import '_discover';
+@import '_menu';
+@import '_join';
+@import '_morning';
+@import '_feedBack';
+@import '_footer';

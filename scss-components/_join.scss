@@ -1,0 +1,81 @@
+
+
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+
+    .join__backImage{
+        position: absolute;
+        top: 255vh;
+        right: 0;
+        transform: scale(-1, 1);
+    }
+
+
+    .join__title{
+        font-size: clamp(42px, 6vw, 60px);
+        color: #603809;
+        margin-bottom: 0;
+    }
+
+    .join__paragraph{
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(18px, 2vw, 22px);
+            font-weight: 400;
+            color: #707070;
+            line-height: 40px;
+            margin-bottom: 0;
+    }
+
+    .join__container{
+        display: flex;
+        margin-top: 1vh;
+    }
+
+    .join__pictures{
+        position: relative;
+        display: flex;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+        .join__pictures-title{
+            position: absolute;
+            bottom: 8vh;
+            width: 15vw;
+            text-align: center;
+            font-size: clamp(22px, 2vw, 26px);
+            color: #603809;
+        }
+
+        .join__pictures-paragraph{
+            position: absolute;
+            bottom: 3vh;
+            left: 3vw;
+            right: 3vw;
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(14px, 2vw, 18px);
+            text-align: center;
+        }
+
+    .join__subTitle{
+        font-size: clamp(27px, 2vw, 33px);
+        color: #603809;
+        margin-top: 0;
+        margin-bottom: 1vh;
+    }
+
+    .join__button{
+        background-color: #F9C06A;
+        height: 4.5vh;
+        width: 8vw;
+        font-family: 'Playfair Display', serif;
+        border-radius: 50px;
+        border: none;
+        font-size: clamp(12px, 2vw, 14px);
+        font-weight: bold;
+        margin-top: 1vh;
+    }
+}

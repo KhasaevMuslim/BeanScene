@@ -1,0 +1,112 @@
+
+
+.header {
+    background-image: url(image/background/overlay.png),
+    url(image/background/coffee_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 10svh;
+    color: #ffffff;
+    
+
+    .header__title{
+        font-family:'Clicker Script', cursive;
+        font-weight: 100;
+        font-size: clamp(30px, 5vw, 40px);
+        
+    }
+
+    .header__navigation{
+        min-width: 450px;
+        min-height: 60px;
+    }
+
+        .header__navigation-list{
+            display: flex;
+            list-style-type: none;
+            font-size: clamp(12px, 2vw, 14px);
+            padding-right: 7vw;
+        }
+
+            .list__object{
+                padding-left: 5vw;
+                font-family: 'Playfair Display', serif;
+                font-style: normal;
+            }
+
+}
+    .header__clickers{
+        padding-right: 1vw;
+    }
+
+        .header__clickers-a{
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(12px, 2vw, 14px);
+            padding-right: 2vw;
+            text-decoration: underline 1px;
+        }
+
+        .header__clickers-button{
+            background-color: #F9C06A;
+            height: 5vh;
+            width: 6vw;
+            font-family: 'Playfair Display', serif;
+            border-radius: 50px;
+            border: none;
+            font-size: clamp(12px, 2vw, 14px);
+            font-weight: 500;
+            box-shadow: 0vh 0.5vh 3vh -0.5vh  #F9C06A;
+            
+}
+
+@media (max-width: 1280px) {
+    .header {
+        justify-content: start;
+        }
+
+        .header__title {
+            width: 100%;
+            margin-left: 4vw;
+            margin-bottom: 0;
+        }
+
+        .header__navigation {
+            display: flex;
+            justify-content: start;
+            width: 50%;
+        }
+
+            .header__navigation-list {
+                text-align: start;
+                padding-right: 0;
+            }
+
+                .header .list__object{
+                    padding-left: 0;
+                    padding-right: 5vw;
+                }
+
+        .header__clickers {
+            position: absolute;
+            display: flex;
+            justify-content: end;
+            align-items: last baseline;
+            height: 10svh;
+            width: 90%;
+        }
+
+            .header__clickers-button {
+                width:8vw;
+                }
+
+        
+
+}
+

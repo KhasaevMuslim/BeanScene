@@ -1,0 +1,74 @@
+
+
+
+.menu{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85svh;
+
+    .menu__title{
+        font-size: clamp(42px, 6vw, 60px);
+        color: #603809;
+        margin-bottom: 0;
+        
+    }
+
+    .menu__paragraph{
+        font-family: 'Playfair Display', serif;
+        font-size: clamp(18px, 2vw, 22px);
+        font-weight: 400;
+        color: #707070;
+    }
+
+    .menu__container{
+        display: flex;
+    }
+
+        .menu__figure{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-right: 0vw;
+            margin-left: 2vw;
+            
+            
+        }
+            
+            .menu__figure-image{
+                box-shadow: 0vh 17vh 0vh 0vh rgba($color: #FFF9F1, $alpha: 1.0);
+            }
+
+            .menu__figure-figcaption{
+                font-size: clamp(18px, 4vw, 24px);
+                color: #603809;
+                line-height: 30px;
+                font-weight: bold;
+                margin-top: 1vh;
+            }
+
+                .menu__figure-span{
+                    font-size: clamp(12px, 2vw, 16px);
+                    font-weight: normal;
+                }
+
+                .menu__figure-cost{
+                    font-size: clamp(16px, 2vw, 20px);
+                    color: #603809;
+                    font-weight: bold;
+                }
+
+                .menu__figure-button{
+                    background-color: #F9C06A;
+                    height: 4.5vh;
+                    width: 8vw;
+                    font-family: 'Playfair Display', serif;
+                    border-radius: 50px;
+                    border: none;
+                    font-size: clamp(12px, 2vw, 14px);
+                    font-weight: bold;
+                    margin-top: 1vh;
+                }
+}

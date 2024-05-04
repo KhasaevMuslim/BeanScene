@@ -1,0 +1,53 @@
+
+.main__container{
+    height: 90svh;
+    background-image: url(image/background/overlay.png),
+    url(image/background/coffee_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 88svh;
+    width: 43vw;
+    justify-content: center;
+    align-items: start;
+    margin-left: 7vw;
+
+    .main__title{
+        font-family: 'Playfair Display', serif;
+        font-size: clamp(18px, 4vw, 24px);
+        font-weight: 500;
+        margin: 0;
+    }
+
+        .main__title-span{
+            font-family: 'Clicker Script', cursive;
+            font-weight: 100;
+            font-size: clamp(200px, 20vw, 240px);
+            
+        }
+
+    .main__paragraph{
+        font-family: 'Playfair Display', serif;
+        font-size: clamp(16px, 4vw, 24px);
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .main__button{
+        background-color: #F9C06A;
+        height: 4.5vh;
+        width: 8vw;
+        font-family: 'Playfair Display', serif;
+        font-size: clamp(12px, 2vw, 14px);
+        font-weight: bold;
+        border-radius: 50px;
+        border: none;
+        box-shadow: 0vh 0.5vh 3vh -0.5vh  #F9C06A;
+    }
+}
